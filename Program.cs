@@ -23,14 +23,14 @@ do
     {
         case 1:
             // Movie Entry
-            var movie = new Movie
-            {
-                Title = GetMovieTitle("Enter Movie Title: "),
-                Minutes = GetMinutes("Enter Movie Minutes: ")
-            };
-            movie.SetRating(GetInputRating("Enter Movie Rating: \"G\",\"PG\",\"PG-13\", or \"R\"\n Choice: "));
+            // var movie = new Movie
+            // {
+            //     Title = GetMovieTitle("Enter Movie Title: "),
+            //     Minutes = GetMinutes("Enter Movie Minutes: ")
+            // };
+            // movie.SetRating(GetInputRating("Enter Movie Rating: \"G\",\"PG\",\"PG-13\", or \"R\"\n Choice: "));
             
-            WriteLine(movie.ToString());
+            // WriteLine(movie.ToString());
             break;
 
         case 2:
